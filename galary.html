@@ -1,92 +1,115 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>galary.CSS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
- <div>
-    <style>
-    .image {display:none;}
-    .menu {
-        display: flex;
-        justify-content: space-around;
-        width: 65%;
-        float: center;
-        height: 100px;
-    }
+    <div>
+        <style>
+            .image {
+                display: none;
+            }
+
+            .menu {
+                display: flex;
+                justify-content: space-around;
+                width: 65%;
+                float: center;
+                height: 100px;
+            }
 
 
-    .menu > a{
-        font-size: 24px;
-        margin-top: auto;
-        margin-bottom: auto;
-        color: #FFE365;
-    }
-    .logo{
-        width: 20%;
-        float: left;
-        height: 100px;
-    }
-    .menu-bar{
-        display: flex;
-        justify-content: space-between;
-        background-color: #852E2E;
-    }
-    .gallery{
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-    }
-    
-   
-    </style>
-    </head>
-    <body>       
-    <style>
-    
-                        a {
-                          text-decoration: none;
-                        }
+            .menu>a {
+                font-size: 24px;
+                margin-top: auto;
+                margin-bottom: auto;
+                color: #FFE365;
+            }
 
-    </style>
-        <div class="menu-bar">
-            <div class="logo">
-                <a href="">
-                    <img src="logob.jpg" style="width:300px;height:100px;">
-                </a>
-            </div>
+            .logo {
+                width: 20%;
+                float: left;
+                height: 100px;
+            }
 
-                  <div class="menu">
-                    
-                        
-                        </style>
-        
-                <a href="slide.html">Home</a>
-                <a href="menu.html"> Menu</a>
-                <a href="galary.html"> Gallery</a>
-                <a href="Contact.html"> Contact Us</a>
-            </div>
-            </div>
-</div>   
+            .menu-bar {
+                display: flex;
+                justify-content: space-between;
+                background-color: #852E2E;
+            }
 
+            .gallery {
+                display: grid;
+                grid-template-columns: auto auto auto;
+            }
+        </style>
 </head>
-<body>       
-    <div class="gallery">
-       
-           <img src="ex4.jpg" width="200">
-           <img src="freshly-baked-bread-gourmet-meat-wooden-table-generated-by-artificial-intelligence.jpg" width="200">
-           <img src="close-up-delicious-burger-meal.jpg" width="200">
-           <img src="pizza-with-slice-taken-out-it.jpg" width="200">
-           <img src="ex2.jpg" width="200">
-           <img src="ex3.jpg" width="200">
-           <img src="IMG_2127.jpeg" width="200">
-           <img src="ex5.jpg" width="200">
-           <img src="sauteed-mushrooms-with-pumpkin-sweet-pepper.jpg" width="200">
-           <img src="download (1).jpg" width="200">
-           <img src="download.jpg" width="200">
-           <img src="lst.jpg" width="200">
-     </div>
 
- 
-    
-</body>
+<body>
+    <style>
+        a {
+            text-decoration: none;
+        }
+    </style>
+    <div class="menu-bar">
+        <div class="logo">
+            <a href="">
+                <img src="logob.jpg" style="width:300px;height:100px;">
+            </a>
+        </div>
+
+        <div class="menu">
+
+
+            </style>
+
+            <a href="slide.html">Home</a>
+            <a href="menu.html"> Menu</a>
+            <a href="galary.html"> Gallery</a>
+            <a href="Contact.html"> Contact Us</a>
+        </div>
+    </div>
+    </div>
+
+    </head>
+
+    <body>
+        <div class="gallery">
+
+            <div style="display: flex; flex-direction: column; align-items: stretch; height: 100%;">
+                <div>
+                    <a href="bakery.html"><img src="Bakery main.jpg" style="border: 2px solid black; "
+                            width="200"></a>
+                    <h1>Bakery</h1>
+                </div>
+
+                <div >
+                    <a href="beve.html"><img src="Main  bv.jpg" style="border: 2px solid black; "
+                            width="200"></a>
+                    <h1>Beverages</h1>
+                </div>
+            </div>
+
+
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%;">
+                <a href="main-dishes.html"><img src="Main Ds.jpg" style="border: 2px solid black; " width="200"></a>
+                <h1>Dishes</h1>
+            </div>
+
+
+            <div style="display: flex; flex-direction: column; align-items: flex-end; height: 100%;">
+                <div>
+                    <a href="fruits.html"><img src="Main F.jpg" style="border: 2px solid black; " width="200"></a>
+                    <h1>Fruits</h1>
+                </div>
+                <div>
+                    <a href="snack.html"><img src="Main S.jpg" style="border: 2px solid black; " width="200"></a>
+                    <h1>Snacks</h1>
+                </div>
+            </div>
+
+        </div>
+    </body>
+
 </html>
